@@ -1,6 +1,5 @@
 #Klassen
-import Reservatiesysteem as reservatiesystem
-
+import Project.Reservatiesysteem as reservatiesystem
 #Main
 #**********************************
 class Main:

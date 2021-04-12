@@ -1,18 +1,18 @@
 #Datastructuren
-from Denis.BST import Table as Filmdatabase
-from Menua.Chain import Table as ZaalData
-from Denis.Chain import Table as Gebruikerdatabase
-from Menua.BST import Table as Vertoningdatabase
-from Denis.Chain import Table as Reservatiedatabase
-from Menua.Queue import Table as VertoningQueue
+from .Denis.BST import Table as Filmdatabase
+from .Menua.Chain import Table as ZaalData
+from .Denis.Chain import Table as Gebruikerdatabase
+from .Menua.BST import Table as Vertoningdatabase
+from .Denis.Chain import Table as Reservatiedatabase
+from .Menua.Queue import Table as VertoningQueue
 
 #Klassen
-from Film import *
-from Zaal import *
-from Vertoning import *
-from Reservatie import *
-from Gebruiker import *
-from Ticket import *
+from .Film import *
+from .Zaal import *
+from .Vertoning import *
+from .Reservatie import *
+from .Gebruiker import *
+from .Ticket import *
 
 #ReservatieSysteem
 #**********************************

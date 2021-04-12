@@ -2,7 +2,7 @@
 #Gemaakt door: Denis
 #Getest door: Menua
 #**********************************
-from Denis.Stack import Table as Ticketsdatabase
+from .Denis.Stack import Table as Ticketsdatabase
 
 class Vertoning:
     def __init__(self, pvertoning_id, pvertoning_zaal_id,pvertoning_slot, pvertoning_datum,pvertoning_film_id, pvertoning_plaats):
